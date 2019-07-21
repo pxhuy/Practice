@@ -1,0 +1,21 @@
+.bg {
+  background: url(../../../Images/background-home.jpg) no-repeat;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-size: cover;
+}
+#log {
+  border: 1px solid white;
+  padding: 3rem 2rem;
+  margin: 5rem auto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  -webkit-box-shadow: -1px 0px 36px 11px rgba(0,0,0,0.63);
+  -moz-box-shadow: -1px 0px 36px 11px rgba(0,0,0,0.63);
+  box-shadow: -1px 0px 36px 11px rgba(0,0,0,0.63);
+}
+#log-hearder {
+  text-align: center;
+  font-weight: bolder;
+}
