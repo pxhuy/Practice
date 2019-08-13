@@ -1,0 +1,37 @@
+<app-menu-toggle></app-menu-toggle>
+<div class="box-search">
+    <form class="form-inline" (onsubmit)="doSearch(search.value)">
+      <div class="form-group">
+        <input type="search" class="form-control" placeholder="Search" #search>
+      </div>
+      <input type="submit" value="Search" class="btn btn-primary" (click)="onSearch(search.value)">
+    </form>
+  </div>
+
+
+  <div class="card-weather">
+    <div *ngIf="weather">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">City Name</h5>
+          <p class="card-text">{{weather.city}}</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Temp</h5>
+          <p class="card-text">{{weather.temp}}</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Description</h5>
+          <p class="card-text">{{weather.weather}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+

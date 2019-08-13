@@ -1,0 +1,10 @@
+.box-login{
+  width: 40%;
+  margin: auto;
+  margin-top: 3em;
+  padding: 1em;
+  -webkit-box-shadow: -1px 0px 36px 11px rgba(0,0,0,0.63);
+  -moz-box-shadow: -1px 0px 36px 11px rgba(0,0,0,0.63);
+  box-shadow: -1px 0px 36px 11px rgba(0,0,0,0.63);
+  border-radius: 0.5em;
+}
